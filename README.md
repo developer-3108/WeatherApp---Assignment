@@ -56,7 +56,7 @@ Follow these steps to run the project locally:
 
 1.  **Clone the repository**
     ```bash
-    git clone [https://github.com/developer-3108/weather-app-ios.git](https://github.com/developer-3108/WeatherApp---Assignment)
+    git clone https://github.com/developer-3108/WeatherApp---Assignment
     ```
 
 2.  **Open in Xcode**
