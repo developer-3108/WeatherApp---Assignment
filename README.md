@@ -89,7 +89,7 @@ Follow these steps to run the project locally:
 ---
 
 ## 📸 Screenshots
-
+Demo Video: https://drive.google.com/file/d/1xRA-x0gOt3kNsXV1C7u3_mAJnj_lW3Wj/view?usp=sharing
 | Data Display | Search by Name | Error Handling |
 |:---:|:---:|:---:|
 | <img src="https://github.com/user-attachments/assets/fd31b0f1-1da0-41c4-aca2-6e0eace034af" width="200"> | <img src="https://github.com/user-attachments/assets/a9c6b698-fae7-484b-bade-db97bc6c00bd" width="200"> | <img src="https://github.com/user-attachments/assets/1fe6f867-b0a6-4356-9295-514ce87267ab" width="200"> |
