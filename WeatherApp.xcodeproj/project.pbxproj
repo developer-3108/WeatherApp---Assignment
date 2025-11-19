@@ -8,10 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		77D1B8AF2ECC7D5500305E14 /* DotLottie in Frameworks */ = {isa = PBXBuildFile; productRef = 77D1B8AE2ECC7D5500305E14 /* DotLottie */; };
+		77D1B8C72ECD898200305E14 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 77D1B8C62ECD898200305E14 /* README.md */; };
+		77D1B8CD2ECD8BF400305E14 /* Secrets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77D1B8CC2ECD8BF400305E14 /* Secrets.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		77D1B85E2ECC5AD300305E14 /* WeatherApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WeatherApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		77D1B8C62ECD898200305E14 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		77D1B8CC2ECD8BF400305E14 /* Secrets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Secrets.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
@@ -50,6 +54,8 @@
 		77D1B8552ECC5AD300305E14 = {
 			isa = PBXGroup;
 			children = (
+				77D1B8CC2ECD8BF400305E14 /* Secrets.swift */,
+				77D1B8C62ECD898200305E14 /* README.md */,
 				77D1B8602ECC5AD300305E14 /* WeatherApp */,
 				77D1B85F2ECC5AD300305E14 /* Products */,
 			);
@@ -131,6 +137,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				77D1B8C72ECD898200305E14 /* README.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -141,6 +148,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				77D1B8CD2ECD8BF400305E14 /* Secrets.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

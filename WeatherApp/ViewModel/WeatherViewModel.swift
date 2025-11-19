@@ -67,11 +67,13 @@ class WeatherViewModel: NSObject, ObservableObject, CLLocationManagerDelegate {
             self.isLoading = true
         }
         
+        let apiKey = Secrets.apiKey
+        
         print("Starting to fetch Weather")
         print(self.cityName)
         do {
             guard let encodedCity = cityName.addingPercentEncoding(withAllowedCharacters: .urlQueryAllowed),
-                  let url = URL(string: "https://api.weatherapi.com/v1/current.json?key=9e6b496b01b049e7bd273438251811&q=\(encodedCity)&aqi=yes")
+                  let url = URL(string: "https://api.weatherapi.com/v1/current.json?key=\(apiKey)&q=\(encodedCity)&aqi=yes")
             else {
                 print("URL encoding failed")
                 return
