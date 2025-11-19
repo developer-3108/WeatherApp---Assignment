@@ -56,8 +56,7 @@ Follow these steps to run the project locally:
 
 1.  **Clone the repository**
     ```bash
-    git clone [https://github.com/yourusername/weather-app-ios.git](https://github.com/yourusername/weather-app-ios.git)
-    cd weather-app-ios
+    git clone https://github.com/developer-3108/WeatherApp---Assignment
     ```
 
 2.  **Open in Xcode**
@@ -66,7 +65,7 @@ Follow these steps to run the project locally:
 3.  **Configure API Key**
     * This project uses WeatherAPI. You will need a free API key.
     * Sign up at [WeatherAPI.com](https://www.weatherapi.com/).
-    * Navigate to `WeatherManager.swift` (or wherever your API call is located).
+    * Navigate to `Secrets.swift`.
     * Replace the placeholder string with your key:
         ```swift
         let apiKey = "YOUR_API_KEY_HERE"
@@ -90,17 +89,15 @@ Follow these steps to run the project locally:
 ---
 
 ## 📸 Screenshots
-
-| Loading State (Skeleton) | Data Display | Search & Error Handling |
+Demo Video: https://drive.google.com/file/d/1xRA-x0gOt3kNsXV1C7u3_mAJnj_lW3Wj/view?usp=sharing
+| Data Display | Search by Name | Error Handling |
 |:---:|:---:|:---:|
-| <img src="path/to/screenshot_loading.png" width="200"> | <img src="path/to/screenshot_data.png" width="200"> | <img src="path/to/screenshot_search.png" width="200"> |
-
-*(Note: Please replace the image paths above with actual screenshots from your recordings).*
+| <img src="https://github.com/user-attachments/assets/fd31b0f1-1da0-41c4-aca2-6e0eace034af" width="200"> | <img src="https://github.com/user-attachments/assets/a9c6b698-fae7-484b-bade-db97bc6c00bd" width="200"> | <img src="https://github.com/user-attachments/assets/1fe6f867-b0a6-4356-9295-514ce87267ab" width="200"> |
 
 ---
 
 ## 📬 Contact
 
 **Akshat Srivastava**
-* [LinkedIn](https://linkedin.com/in/yourprofile)
-* [GitHub](https://github.com/yourusername)
+* [LinkedIn](https://www.linkedin.com/in/akshat-srivastava07/)
+* [GitHub](https://github.com/developer-3108)
