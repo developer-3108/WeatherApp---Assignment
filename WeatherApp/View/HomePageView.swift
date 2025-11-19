@@ -11,6 +11,9 @@ struct HomePageView: View {
     @StateObject var weatherViewModel = WeatherViewModel()
     @State private var searchQuery: String = ""
     @State private var showSearchBar: Bool = false
+    var currentAnimation: String {
+        animationFor(code: weatherViewModel.weather?.current.condition.code ?? 0)
+    }
     var body: some View {
         ScrollView(showsIndicators: false) {
             
@@ -114,7 +117,8 @@ struct HomePageView: View {
             }.padding(.horizontal)
             
             // MARK: - WEATHER ANIMATION
-            WeatherAnimation(weatherName: animationFor(code: weatherViewModel.weather?.current.condition.code ?? 0))
+            WeatherAnimation(weatherName: currentAnimation)
+                .id(currentAnimation)
             
             // MARK: - WEATHER DETAILS
             VStack(spacing: 0) {
@@ -122,6 +126,7 @@ struct HomePageView: View {
                     .font(.custom("Montserrat-Bold", size: 85))
                 Text(weatherViewModel.weather?.current.condition.text ?? "")
                     .textCase(.uppercase)
+                    .multilineTextAlignment(.center)
                     .font(.custom("Montserrat-Medium", size: 35))
                 Text("\(weatherViewModel.weather?.location.localtime ?? "")")
                     .font(.custom("Montserrat-Medium", size: 15))
